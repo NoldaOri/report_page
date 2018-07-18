@@ -1,0 +1,58 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    display: grid;
+    border: 2px #101268;
+    grid-template-columns: 1fr 850px 1fr;
+    grid-template-rows: 60px 1fr 60px;
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+
+.body {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column
+}
+
+.sign_in_up {
+    text-align: center;
+}
+
+.report_new_heading {
+    color: darkblue;
+    margin-bottom: 0.5em;
+}
+
+.report_new {
+    color: darkblue;
+    margin-bottom: 0.5em;
+    font-size: 15px;
+}
+
+.req {
+    color: darkblue;
+    font-size: 10px;
+    text-align: right;
+}
+
+.placeholder {
+    line-height: 25px;
+}
